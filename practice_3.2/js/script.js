@@ -1,0 +1,10 @@
+const body = document.body;
+body.style['background-color'] = '#696969';
+const page = document.querySelector('.page');
+page.style['background-color'] = 'ghostwhite';
+const name = document.querySelector('.name');
+name.innerHTML = 'DJ Rashad';
+const image = document.querySelector('img');
+image.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DJ_Rashad_2013.jpg/1200px-DJ_Rashad_2013.jpg');
+const bio = document.querySelector('.short-bio');
+bio.className += ' animated';
