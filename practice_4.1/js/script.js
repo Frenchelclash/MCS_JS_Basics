@@ -1,5 +1,4 @@
-let number = prompt('enter number');
-number = parseFloat(number);
+let number = parseFloat(prompt('enter number'));
 
 if (number>=0){
 	console.log(number);
