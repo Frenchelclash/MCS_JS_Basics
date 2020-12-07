@@ -1,11 +1,11 @@
-.wrapper{
 
-}
 .graph{
 	height: 30px;
 }
 .first{
 	background-color: blue;
+	width: 300px;
+	
 }
 .second{
 	background-color: pink;
