@@ -18,5 +18,5 @@ const graphs = document.querySelectorAll('.graph');
  for (a = 0; a<names.length; a++){
   names[a].innerHTML = crypto[a]['name'];
   prices[a].innerHTML =  crypto[a]['price'];
-  graphs[a].style.width = parseFloat(crypto[a]['price']) + "px";
+  graphs[a].style.width = (parseFloat(crypto[a]['price'] /10) + "%");
  }
